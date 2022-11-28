@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/category.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>CGI Online Store | Category</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-logo">
+                    <img
+                        src="assets/logo.png"
+                        alt="cgi-logo"
+                        class="navbar-img"
+                    />
+                    <span class="navbar-title">CGI</span>
+                </a>
+                <a href="#" class="navbar-burger" onclick="openNav()"
+                    ><i class="bi bi-list"></i
+                ></a>
+            </div>
+            <div class="navbar-desc">
+                <span><a href="index.html#special_deal">Special Deal</a></span>
+                <span><a href="index.html#category">Category</a></span>
+                <span><a href="index.html#top_selling">Top Selling</a></span>
+                <span><a href="index.html#about_us">About Us</a></span>
+                <span><a href="index.html#contact_us">Contact Us</a></span>
+            </div>
+        </nav>
+        <div class="navbar-side" id="sidenav">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+                >&times;</a
+            >
+            <a href="index.html#special_deal">Special Deal</a>
+            <a href="index.html#category">Category</a>
+            <a href="index.html#top_selling">Top Selling</a>
+            <a href="index.html#about_us">About Us</a>
+            <a href="index.html#contact_us">Contact Us</a>
+        </div>
+
+        <!-- cart container -->
+        <section class="cart-container">
+            <a class="cart" href="#">
+                <i class="bi bi-cart"></i>&nbsp;
+                <div class="no-addedtocart">
+                    <span>1</span>
+                </div>
+            </a>
+        </section>
+
+        <!-- header -->
+        <div class="header-bg">
+            <section class="header">
+                <h3 class="header-title">Category</h3>
+                <div class="breadcrumb">
+                    <a class="breadcrumb-element" href="index.html">Home</a>
+                    &nbsp;
+                    <h5 class="breadcrumb-chevron">
+                        <i class="bi bi-chevron-right"></i>
+                    </h5>
+                    &nbsp;
+                    <a
+                        class="breadcrumb-element breadcrumb-element-category"
+                        href="#"
+                        >Category</a
+                    >
+                </div>
+            </section>
+        </div>
+
+        <!-- category menu -->
+        <section class="category">
+            <form action="category.html" method="get" class="category-form">
+                <h4 class="category-title">Category&nbsp;:&nbsp;&nbsp;</h4>
+                <button
+                    class="category-btn"
+                    id="all"
+                    type="submit"
+                    name="category"
+                    value="all"
+                >
+                    All
+                </button>
+                <button
+                    class="category-btn"
+                    id="keyboard"
+                    type="submit"
+                    name="category"
+                    value="keyboard"
+                >
+                    Keyboard
+                </button>
+                <button
+                    class="category-btn"
+                    id="laptop"
+                    type="submit"
+                    name="category"
+                    value="laptop"
+                >
+                    Laptop
+                </button>
+                <button
+                    class="category-btn"
+                    id="monitor"
+                    type="submit"
+                    name="category"
+                    value="monitor"
+                >
+                    Monitor
+                </button>
+                <button
+                    class="category-btn"
+                    id="mouse"
+                    type="submit"
+                    name="category"
+                    value="mouse"
+                >
+                    Mouse
+                </button>
+                <button
+                    class="category-btn"
+                    id="ram"
+                    type="submit"
+                    name="category"
+                    value="ram"
+                >
+                    RAM
+                </button>
+                <button
+                    class="category-btn"
+                    id="ssd"
+                    type="submit"
+                    name="category"
+                    value="ssd"
+                >
+                    SSD
+                </button>
+            </form>
+        </section>
+
+        <!-- searchbox -->
+        <section class="searchbox">
+            <form
+                action="category.html"
+                method="get"
+                class="searchbox-form"
+                id="search-products"
+            >
+                <!-- html will be injected here by javascript -->
+            </form>
+        </section>
+
+        <!-- list of product based on category  -->
+        <section class="category-list">
+            <!-- html will be injected here by javascript -->
+        </section>
+
+        <!-- footer -->
+        <section class="footer-bg">
+            <footer>
+                <div class="store-profile">
+                    <a class="store-profile-logo" href="index.html">
+                        <img
+                            src="assets/logo.png"
+                            alt="store-profile-img"
+                            class="store-profile-img"
+                        />
+                        <span class="store-profile-title">CGI</span>
+                    </a>
+                    <p class="store-profile-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Laudantium eaque repellat vero?
+                    </p>
+                    <div class="store-profile-socmed">
+                        <a href="https://facebook.com" target="_blank"
+                            ><i class="bi bi-facebook"></i
+                        ></a>
+                        <a href="https://twitter.com" target="_blank"
+                            ><i class="bi bi-twitter"></i
+                        ></a>
+                        <a href="https://instagram.com" target="_blank"
+                            ><i class="bi bi-instagram"></i
+                        ></a>
+                        <a href="https://youtube.com" target="_blank"
+                            ><i class="bi bi-youtube"></i
+                        ></a>
+                    </div>
+                </div>
+                <div class="useful-links">
+                    <div>
+                        <h6 class="footer-title">Useful Links</h6>
+                        <a href="index.html#special_deal">Special Deal</a>
+                        <a href="index.html#top_selling">Top Selling</a>
+                        <a href="index.html#trusted_partners"
+                            >Trusted partners&nbsp;&nbsp;&nbsp;</a
+                        >
+                        <a href="index.html#about_us">About Us</a>
+                        <a href="index.html#contact_us">Contact Us</a>
+                    </div>
+                    <div>
+                        <a href="category.html?category=keyboard"
+                            >Keyboard category</a
+                        ><a href="category.html?category=laptop"
+                            >Laptop category</a
+                        ><a href="category.html?category=monitor"
+                            >Monitor category</a
+                        ><a href="category.html?category=mouse"
+                            >Mouse category</a
+                        ><a href="category.html?category=ram">RAM category</a>
+                        <a href="category.html?category=ssd">SSD category</a>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h6 class="footer-title">Our newsletter</h6>
+                    <label for="email-newsletter"
+                        >Subscribe to our newsletter to get more updates</label
+                    >
+                    <div class="newsletter-form">
+                        <input
+                            type="text"
+                            name="email_newsletter"
+                            id="email-newsletter"
+                            placeholder="Your email"
+                        />
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <!-- javascript section -->
+        <script src="scripts/category.js"></script>
+    </body>
+</html>

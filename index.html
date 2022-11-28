@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/index.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>CGI Online Store | Home</title>
+        <!-- Primary Meta Tags -->
+        <meta
+            name="title"
+            content="CGI Gadget Store — Popular and Premium Gadget"
+        />
+        <meta
+            name="description"
+            content="From CGI Gadget Store, you can search, find and choose the popular and premium gadget with reasonable price."
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://cgi-gadget-store.vercel.app/"
+        />
+        <meta
+            property="og:title"
+            content="CGI Gadget Store — Popular and Premium Gadget"
+        />
+        <meta
+            property="og:description"
+            content="From CGI Gadget Store, you can search, find and choose the popular and premium gadget with reasonable price."
+        />
+        <meta
+            property="og:image"
+            content="https://cgi-gadget-store.vercel.app/assets/metadata-img.png"
+        />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:url"
+            content="https://cgi-gadget-store.vercel.app/"
+        />
+        <meta
+            property="twitter:title"
+            content="CGI Gadget Store — Popular and Premium Gadget"
+        />
+        <meta
+            property="twitter:description"
+            content="From CGI Gadget Store, you can search, find and choose the popular and premium gadget with reasonable price."
+        />
+        <meta
+            property="twitter:image"
+            content="https://cgi-gadget-store.vercel.app/assets/metadata-img.png"
+        />
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-logo">
+                    <img
+                        src="assets/logo.png"
+                        alt="cgi-logo"
+                        class="navbar-img"
+                    />
+                    <span class="navbar-title">CGI</span>
+                </a>
+                <a href="#" class="navbar-burger" onclick="openNav()"
+                    ><i class="bi bi-list"></i
+                ></a>
+            </div>
+            <div class="navbar-desc">
+                <span><a href="#special_deal">Special Deal</a></span>
+                <span><a href="#category">Category</a></span>
+                <span><a href="#top_selling">Top Selling</a></span>
+                <span><a href="#about_us">About Us</a></span>
+                <span><a href="#contact_us">Contact Us</a></span>
+            </div>
+        </nav>
+        <div class="navbar-side" id="sidenav">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+                >&times;</a
+            >
+            <a href="#special_deal">Special Deal</a>
+            <a href="#category">Category</a>
+            <a href="#top_selling">Top Selling</a>
+            <a href="#about_us">About Us</a>
+            <a href="#contact_us">Contact Us</a>
+        </div>
+
+        <!-- hero -->
+        <section class="hero">
+            <div class="hero-bg-title">
+                <h1 class="hero-title">TECHNOLOGY ALWAYS CHANGING</h1>
+                <a href="category.html?category=all" class="hero-btn"
+                    >SHOP NOW</a
+                >
+            </div>
+        </section>
+
+        <!-- promo -->
+        <section class="promo" id="special_deal">
+            <div class="countdown">
+                <div class="days">
+                    <h3>02</h3>
+                    <p>days</p>
+                </div>
+                <div class="hours">
+                    <h3>02</h3>
+                    <p>hours</p>
+                </div>
+                <div class="minutes">
+                    <h3>02</h3>
+                    <p>minutes</p>
+                </div>
+                <div class="seconds">
+                    <h3>02</h3>
+                    <p>seconds</p>
+                </div>
+            </div>
+            <h4 class="hot-deal">HOT DEAL THIS WEEK</h4>
+            <h4 class="sale">Discount 20% On Everything</h4>
+            <a href="category.html?category=all" class="discover"
+                >DISCOVER ALL</a
+            >
+        </section>
+
+        <!-- category -->
+        <section class="category" id="category">
+            <h3 class="category-title">Category</h3>
+            <div class="category-div">
+                <div></div>
+                <div class="the-category" id="keyboard">
+                    <img
+                        src="assets/keyboard-category.png"
+                        alt="keyboard-category"
+                        class="category-img"
+                    />
+                    <a
+                        href="category.html?category=keyboard"
+                        class="category-btn"
+                        >Keyboard</a
+                    >
+                </div>
+                <div class="the-category" id="laptop">
+                    <img
+                        src="assets/laptop-category.png"
+                        alt="laptop-category"
+                        class="category-img"
+                    />
+                    <a href="category.html?category=laptop" class="category-btn"
+                        >Laptop</a
+                    >
+                </div>
+                <div class="the-category" id="monitor">
+                    <img
+                        src="assets/monitor-category.png"
+                        alt="monitor-category"
+                        class="category-img"
+                    />
+                    <a
+                        href="category.html?category=monitor"
+                        class="category-btn"
+                        >Monitor</a
+                    >
+                </div>
+                <div></div>
+                <div></div>
+                <div class="the-category" id="mouse">
+                    <img
+                        src="assets/mouse-category.png"
+                        alt="mouse-category"
+                        class="category-img"
+                    />
+                    <a href="category.html?category=mouse" class="category-btn"
+                        >Mouse</a
+                    >
+                </div>
+                <div class="the-category" id="ram">
+                    <img
+                        src="assets/ram-category.png"
+                        alt="ram-category"
+                        class="category-img"
+                    />
+                    <a href="category.html?category=ram" class="category-btn"
+                        >RAM</a
+                    >
+                </div>
+                <div class="the-category" id="ssd">
+                    <img
+                        src="assets/ssd-category.png"
+                        alt="ssd-category"
+                        class="category-img"
+                    />
+                    <a href="category.html?category=ssd" class="category-btn"
+                        >SSD</a
+                    >
+                </div>
+                <div></div>
+            </div>
+        </section>
+
+        <!-- top selling -->
+        <section class="topselling" id="top_selling">
+            <h3 class="topselling-title">Top Selling</h3>
+            <div class="topselling-div">
+                <!-- html will be injected here by javascript -->
+            </div>
+        </section>
+
+        <!-- trusted partners -->
+        <section class="trustedpartners" id="trusted_partners">
+            <h3 class="trustedpartners-title">Our trusted partners</h3>
+            <div class="partners-logo-collection">
+                <img
+                    src="assets/partner-corsair.svg"
+                    alt="partner-logo-1"
+                    class="partner-logo"
+                    id="partner-corsair"
+                />
+                <img
+                    src="assets/partner-dell.svg"
+                    alt="partner-logo-2"
+                    class="partner-logo"
+                    id="partner-dell"
+                />
+                <img
+                    src="assets/partner-honor.svg"
+                    alt="partner-logo-3"
+                    class="partner-logo"
+                    id="partner-honor"
+                />
+                <img
+                    src="assets/partner-kingston.svg"
+                    alt="partner-logo-4"
+                    class="partner-logo"
+                    id="partner-kingston"
+                />
+                <img
+                    src="assets/partner-lenovo.svg"
+                    alt="partner-logo-5"
+                    class="partner-logo"
+                    id="partner-lenovo"
+                />
+                <img
+                    src="assets/partner-logitech.svg"
+                    alt="partner-logo-6"
+                    class="partner-logo"
+                    id="partner-logitech"
+                />
+                <img
+                    src="assets/partner-samsung.svg"
+                    alt="partner-logo-7"
+                    class="partner-logo"
+                    id="partner-samsung"
+                />
+            </div>
+        </section>
+
+        <!-- about us -->
+        <section class="aboutus" id="about_us">
+            <h3 class="aboutus-title">About Us</h3>
+            <div class="aboutus-div">
+                <div class="aboutus-image">
+                    <img
+                        src="assets/about-us.jpg"
+                        alt="aboutus-img"
+                        class="aboutus-img"
+                    />
+                </div>
+                <div class="aboutus-desc">
+                    <div class="aboutus-desc-div">
+                        <h4>Lorem Ipsum</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Non aperiam cupiditate sint at aliquam vero
+                            optio. Mollitia suscipit magni praesentium autem
+                            odit sint, iusto nemo.
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+                    </div>
+                    <div class="aboutus-desc-div">
+                        <h4>Lorem Ipsum</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Numquam mollitia a esse! Minima praesentium
+                            nobis non alias, sequi, perferendis consequatur
+                            architecto inventore dolores, quo quibusdam est
+                            quisquam commodi. Accusamus saepe, soluta quae nihil
+                            dolorum magnam.
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+                    </div>
+                    <div class="aboutus-desc-div">
+                        <h4>Lorem Ipsum</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veniam maxime dicta dolor animi est nostrum
+                            delectus doloremque neque provident temporibus!
+                        </p>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact us -->
+        <section class="contactus" id="contact_us">
+            <h3 class="contactus-title">Contact Us</h3>
+            <div class="contactus-container">
+                <div class="contactus-div">
+                    <div class="contactus-desc">
+                        <h5>Get in touch</h5>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Deleniti totam excepturi repellendus.
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+                        <p>
+                            <i class="bi bi-geo-alt"></i>&nbsp;&nbsp;No 1, New
+                            City Farm Street, 10002 City Centre
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+                        <p>
+                            <i class="bi bi-envelope"></i
+                            >&nbsp;&nbsp;contact@cgi.com
+                        </p>
+                        <br />
+                        <hr />
+                        <br />
+                        <p>
+                            <i class="bi bi-phone"></i>&nbsp;&nbsp;+603 8000
+                            8000
+                        </p>
+                    </div>
+                </div>
+                <div class="contactus-div">
+                    <div class="input-pair">
+                        <input
+                            type="text"
+                            class="contactus-input"
+                            placeholder="Your name"
+                        />
+                        <input
+                            type="text"
+                            class="contactus-input"
+                            placeholder="Your email"
+                        />
+                    </div>
+                    <input
+                        type="text"
+                        class="contactus-input"
+                        placeholder="Subject or Title"
+                    />
+                    <textarea
+                        class="contactus-textarea"
+                        placeholder="Message"
+                    ></textarea>
+                    <button class="contactus-btn">SUBMIT</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section class="footer-bg">
+            <footer>
+                <div class="store-profile">
+                    <a class="store-profile-logo" href="index.html">
+                        <img
+                            src="assets/logo.png"
+                            alt="store-profile-img"
+                            class="store-profile-img"
+                        />
+                        <span class="store-profile-title">CGI</span>
+                    </a>
+                    <p class="store-profile-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Laudantium eaque repellat vero?
+                    </p>
+                    <div class="store-profile-socmed">
+                        <a href="https://facebook.com" target="_blank"
+                            ><i class="bi bi-facebook"></i
+                        ></a>
+                        <a href="https://twitter.com" target="_blank"
+                            ><i class="bi bi-twitter"></i
+                        ></a>
+                        <a href="https://instagram.com" target="_blank"
+                            ><i class="bi bi-instagram"></i
+                        ></a>
+                        <a href="https://youtube.com" target="_blank"
+                            ><i class="bi bi-youtube"></i
+                        ></a>
+                    </div>
+                </div>
+                <div class="useful-links">
+                    <div>
+                        <h6 class="footer-title">Useful Links</h6>
+                        <a href="#special_deal">Special Deal</a>
+                        <a href="#top_selling">Top Selling</a>
+                        <a href="#trusted_partners"
+                            >Trusted partners&nbsp;&nbsp;&nbsp;</a
+                        >
+                        <a href="#about_us">About Us</a>
+                        <a href="#contact_us">Contact Us</a>
+                    </div>
+                    <div>
+                        <a href="category.html?category=keyboard"
+                            >Keyboard category</a
+                        ><a href="category.html?category=laptop"
+                            >Laptop category</a
+                        ><a href="category.html?category=monitor"
+                            >Monitor category</a
+                        ><a href="category.html?category=mouse"
+                            >Mouse category</a
+                        ><a href="category.html?category=ram">RAM category</a>
+                        <a href="category.html?category=ssd">SSD category</a>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h6 class="footer-title">Our newsletter</h6>
+                    <label for="email-newsletter"
+                        >Subscribe to our newsletter to get more updates</label
+                    >
+                    <div class="newsletter-form">
+                        <input
+                            type="text"
+                            name="email_newsletter"
+                            id="email-newsletter"
+                            placeholder="Your email"
+                        />
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </footer>
+        </section>
+
+        <!-- javascript section -->
+        <script src="scripts/index.js"></script>
+    </body>
+</html>

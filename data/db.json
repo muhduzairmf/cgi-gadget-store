@@ -1,0 +1,573 @@
+{
+    "categories": [
+        {
+            "categoryName": "Keyboard"
+        },
+        {
+            "categoryName": "Laptop"
+        },
+        {
+            "categoryName": "Monitor"
+        },
+        {
+            "categoryName": "Mouse"
+        },
+        {
+            "categoryName": "RAM"
+        },
+        {
+            "categoryName": "SSD"
+        }
+    ],
+    "brands": [
+        {
+            "brandName": "Corsair"
+        },
+        {
+            "brandName": "Hyperx"
+        },
+        {
+            "brandName": "Logitech"
+        },
+        {
+            "brandName": "Microsoft"
+        },
+        {
+            "brandName": "Dell"
+        },
+        {
+            "brandName": "Honor"
+        },
+        {
+            "brandName": "Lenovo"
+        },
+        {
+            "brandName": "MSI"
+        },
+        {
+            "brandName": "Asus"
+        },
+        {
+            "brandName": "LG"
+        },
+        {
+            "brandName": "Philips"
+        },
+        {
+            "brandName": "Samsung"
+        },
+        {
+            "brandName": "Kingston"
+        },
+        {
+            "brandName": "Crucial"
+        },
+        {
+            "brandName": "Verbatim"
+        }
+    ],
+    "products": [
+        {
+            "productId": "101",
+            "productName": "Corsair Keyboard",
+            "productFullName": "Corsair K55 RGB Pro Gaming Macro Keys Wired Keyboard(CH-9226765-NA)",
+            "productCategory": "Keyboard",
+            "productBrand": "Corsair",
+            "productPriceOld": "RM218.00",
+            "productPriceNew": "RM198.00",
+            "productDesc": [
+                "Light up your desktop with six onboard lighting effects, assign a color to each lighting zone, or program your own vibrant lighting effects across five RGB lighting zones with CORSAIR iCUE software.",
+                "Activate functions, shortcuts, or keypresses in just one stroke with six dedicated macro keys, easily set up through CORSAIR iCUE software, or use instant streaming commands through Elgato Stream Deck software",
+                "IP42-rated dust and spill resistance guards against accidents so your gameplay never has to stop.",
+                "A soft rubber detachable palm rest reduces stress on your hands so you can play longer in comfort, with a textured surface to keep your hands from slipping.",
+                "Dedicated volume and media keys let you control media playback and fine-tune volume on-the-fly without having to interrupt your game.",
+                "Quiet and responsive keys offer comfortable typing during both work and play, with a tactile bump for responsive gaming performance."
+            ],
+            "productImages": "keyboard-corsair"
+        },
+        {
+            "productId": "102",
+            "productName": "Hyperx Keyboard",
+            "productFullName": "HyperX Alloy Origins Core Mechanical Gaming Keyboard (HX-KB7RDX-US)",
+            "productCategory": "Keyboard",
+            "productBrand": "Hyperx",
+            "productPriceOld": "RM459.00",
+            "productPriceNew": "RM359.00",
+            "productDesc": [
+                "HyperX mechanical switches1",
+                "Full aircraft-grade aluminum body",
+                "Compact, portable design with detachable USB Type-C cable",
+                "Dazzling RGB lighting with dynamic effects",
+                "Advanced customization with HyperX NGENUITY software",
+                "Three adjustable keyboard angles",
+                "Onboard memory for three profiles",
+                "Game Mode, 100% anti-ghosting, and N-key rollover functionalities"
+            ],
+            "productImages": "keyboard-hyperx"
+        },
+        {
+            "productId": "103",
+            "productName": "Logitech Keyboard",
+            "productFullName": "Logitech K120 Corded Plug-n-Play USB Keyboard",
+            "productCategory": "Keyboard",
+            "productBrand": "Logitech",
+            "productPriceOld": "RM35.00",
+            "productPriceNew": "RM25.00",
+            "productDesc": [
+                "Low-profile keys give you a quiet, comfortable typing experience",
+                "Type naturally with the standard keyboard layout you're used to, including full-size F-keys and number pad",
+                "Thin, sleek design keeps your hands in a relaxed and neutral position for effortless typing",
+                "Durable, spill-resistant design and sturdy adjustable tilt legs",
+                "Simple wired USB connection",
+                "Spill-resistant design 3Tested under limited conditions (maximum of 60 ml liquid spillage). Do not immerse the keyboard in liquid. 10-Key Number pad. Caps lock indicator light. Num lock indicator light. Up to 10 million keystrokes (excludes number lock key). Key type: Deep profile. Sustainability: Black plastics: 51% post-consumer recycled material"
+            ],
+            "productImages": "keyboard-logitech"
+        },
+        {
+            "productId": "104",
+            "productName": "Microsoft Keyboard",
+            "productFullName": "Microsoft Bluetooth Wireless Keyboard(QSZ-00017",
+            "productCategory": "Keyboard",
+            "productBrand": "Microsoft",
+            "productPriceOld": "RM239.00",
+            "productPriceNew": "RM209.00",
+            "productDesc": [
+                "Connection interface: Bluetooth® Low Energy compatible 4.x/5.0.",
+                "Wireless frequency: 2.4 GHz frequency range.",
+                "Wireless range: 33 feet (10 metres) in open area; up to 16 feet (5 metres) in typical office environment.",
+                "Compatibility2: Microsoft Windows 11/10/8.1. Device must support Bluetooth® 4.0 or higher: IOS/MacOS and Android devices are compatible with limited features.",
+                "Dimensions: 434.9 x 123.7 x 19 mm. Weight: 461.6 g including batteries.",
+                "Battery: 2 AAA alkaline batteries (included). Battery life: Up to 3 years.",
+                "Colour: Black.",
+                "Warranty: 1-year limited warranty.",
+                "Technology details: Dedicated office 365* and Emoji keys.Product feature performance: Advanced features: Swift Pair for easy mouse-to-computer pairing3.",
+                "Customisable features:2 Favourite keys reassignment; Media, Previous Track, Play/Pause, Next Track and Emoji key"
+            ],
+            "productImages": "keyboard-microsoft"
+        },
+        {
+            "productId": "105",
+            "productName": "Dell Laptop",
+            "productFullName": "Dell Inspiron 15.6inch 15 3510 Laptop Celeron N4020 Processor 4GB RAM 256GB SSD Win10Home Office Home & Student 2019-HNI35103104MY",
+            "productCategory": "Laptop",
+            "productBrand": "Dell",
+            "productPriceOld": "RM1,799.00",
+            "productPriceNew": "RM1,390.09",
+            "productDesc": [
+                "Processor Intel® Celeron® Processor N4020 (4MB Cache, up to 2.8 GHz)",
+                "Operating System Windows 10 Home Single Language(64bit)",
+                "Video Card Intel® UHD Graphics 600 with shared graphics memory",
+                "Display 15.6-inch HD (1366 x 768) Anti-glare LED-Backlit Non-touch Narrow Border Display",
+                "Memory* 4GB, 1x4GB, DDR4, 2400MHz",
+                "Hard Drive 256GB M.2 PCIe NVMe Solid State Drive",
+                "Choose your colour Carbon Black",
+                "Microsoft Office Microsoft® Office Home & Student 2019",
+                "Security Software McAfee® Multi Device Security 15 month subscription",
+                "Warranty 1Y Premium Support and Onsite Service",
+                "Accidental Damage Protection NONE",
+                "Keyboard English International Non-Backlit Keyboard with Numeric Keypad",
+                "Ports 2 USB 3.2 Gen 1 ports 1 USB 2.0 port 1 Audio jack 1 HDMI 1.4 port",
+                "Slots 1 M.2 2230 slot for WiFi and Bluetooth card 1 M.2 2230/2280 slot for solid-state drive 1 SD-card slot",
+                "Dimensions & Weight Height (front): 17.50 mm (0.68inch) Height (rear): 18.99 mm (0.74inch) Width: 358.50 mm (14.11inch) Depth: 235.56 (9.27inch) Weight: 1.85 kg (4.07 lbs.)",
+                "Camera 720p at 30 fps HD camera, single-integrated microphone",
+                "Audio and Speakers Stereo speakers, 2 W x 2 = 4 W total",
+                "Wireless 802.11ac 1x1 WiFi and Bluetooth",
+                "Primary Battery 3-Cell Battery, 41WHr (Integrated)"
+            ],
+            "productImages": "laptop-dell"
+        },
+        {
+            "productId": "106",
+            "productName": "Honor Laptop",
+            "productFullName": "Honor MagicBook 15 15.6inch Laptop Intel i5-1135G7 Processor Win10Home 16GB DDR4 RAM 512GB SSD 100% sRGB 53011UUY -Space Grey",
+            "productCategory": "Laptop",
+            "productBrand": "Honor",
+            "productPriceOld": "RM3,789.00",
+            "productPriceNew": "RM3,399.00",
+            "productDesc": [
+                "Processor : Intel i5-1135G7",
+                "Graphics Card : Intel Iris Xe Graphics",
+                "RAM : 16GB",
+                "Storage : 512GB",
+                "Display : 15.6inch",
+                "Operating System : Win10Home",
+                "Free Gift By CGI : Backpack , Logitech mouse , Mcafee Anitivirus Livesafe 1 Year 1 Device"
+            ],
+            "productImages": "laptop-honor"
+        },
+        {
+            "productId": "107",
+            "productName": "Lenovo Laptop",
+            "productFullName": "Lenovo Gaming Laptop Legion 5 15ACH6H AMD Ryzen 7 5800H|16GB|1TB SSD|15.6inch IPS FHD|165Hz|GSync|FreeSync|DC Dimmer RTX 3060 Office H&S2019- 82JU00HTMJ",
+            "productCategory": "Laptop",
+            "productBrand": "Lenovo",
+            "productPriceOld": "RM6,100.99",
+            "productPriceNew": "RM5,849.00",
+            "productDesc": [
+                "Processor - AMD Ryzen 7 5800H (8C / 16T, 3.2 / 4.4GHz, 4MB L2 / 16MB L3)",
+                "Graphics - NVIDIA GeForce RTX 3060 6GB GDDR6, Boost Clock 1425 / 1702MHz, TGP 130W",
+                "Memory - 2x 8GB SO-DIMM DDR4-3200",
+                "Storage - 1TB SSD M.2 2280 PCIe 3.0x4 NVMe",
+                "Display - 15.6inch FHD (1920x1080) IPS 300nits Anti-glare, 165Hz, 100% sRGB, Dolby Vision, FreeSync, G-SYNC, DC dimmer",
+                "Operating System - Windows 10 Home 64 (FREE UPGRADE TO WINDOWS 11)",
+                "Free Gifts - Lenovo Backpack , McAfee LiveSafe 1 Device 1 Year , Microsoft Office Home and Student"
+            ],
+            "productImages": "laptop-lenovo"
+        },
+        {
+            "productId": "108",
+            "productName": "MSI Laptop",
+            "productFullName": "MSI Katana GF66 11UG-867MY Gaming Laptop i7-11800H|RTX3070|16GB|15.6inch FHD 144Hz|16GB|512GB|W11H|MOHS - 9S7-158112-867",
+            "productCategory": "Laptop",
+            "productBrand": "MSI",
+            "productPriceOld": "RM8.999.99",
+            "productPriceNew": "RM7,399.00",
+            "productDesc": [
+                "Windows 11 Home",
+                "15.6inch FHD (1920*1080), 144Hz 45% NTSC",
+                "Tiger Lake i7-11800H, Intel HM570",
+                "GeForce RTX3070 GDDR6 8GB",
+                "DDR IV 8GB*2 (3200MHz)",
+                "512GB NVMe PCIe Gen3x4 SSD",
+                "Single backlight KB (Red) with numeric",
+                "Intel Wi-Fi 6 AX201(2*2 ax) BT5.1",
+                "3 cell , 51Whr",
+                "MSI Essential Backpack",
+                "2 Year Warranty"
+            ],
+            "productImages": "laptop-msi"
+        },
+        {
+            "productId": "109",
+            "productName": "Asus Monitor",
+            "productFullName": "Asus TUF Gaming 24inch VG249Q1R FHD IPS 165Hz 1ms MRPT ELMB AMD FreeSync Premium Gaming Monitor",
+            "productCategory": "Monitor",
+            "productBrand": "Asus",
+            "productPriceOld": "RM759.00",
+            "productPriceNew": "RM689.09",
+            "productDesc": [
+                "24 inch FHD (1920 X 1080) Gaming Monitor.",
+                "Ultrafast 165Hz(OC) refresh rate designed for professional gamers and immersive gameplay.",
+                "ASUS Extreme Low Motion Blur (ELMB ™) technology enables a 1ms response time (MPRT) together with Adaptive-sync.",
+                "FreeSync technology supported through DP and HDMI ports providing variable refresh rates for low latency, stuttering-free and tearing-free while gaming.",
+                "Shadow Boost enhances image details in dark areas, brightening scenes without over-exposing bright areas.",
+                "Exclusive GamePlus function delicately designed for every gaming needs."
+            ],
+            "productImages": "monitor-asus"
+        },
+        {
+            "productId": "110",
+            "productName": "LG Monitor",
+            "productFullName": "LG 23.8inch 24MP400 IPS FHD 75Hz 5ms AMD FreeSync Virtually Borderless Monitor",
+            "productCategory": "Monitor",
+            "productBrand": "LG",
+            "productPriceOld": "RM555.59",
+            "productPriceNew": "RM435.00",
+            "productDesc": [
+                "Full HD IPS Display",
+                "3-Side Virtually Borderless Design",
+                "Reader Mode",
+                "Flicker Safe",
+                "DAS / Black Stabilizer / Crosshair",
+                "OnScreen Control",
+                "Enable Ginger Check your internet connection or reload the browserDisable in this text fieldRephraseRephrase current sentenceEdit in Ginger"
+            ],
+            "productImages": "monitor-lg"
+        },
+        {
+            "productId": "111",
+            "productName": "Philips Monitor",
+            "productFullName": "Philips 242E1GSJ 23.8inch 1ms 144Hz FHD FreeSync VA LED Gaming Monitor",
+            "productCategory": "Monitor",
+            "productBrand": "Philips",
+            "productPriceOld": "RM509.89",
+            "productPriceNew": "RM479.00",
+            "productDesc": [
+                "Immersive visuals",
+                "VA display delivers awesome images with wide viewing angles",
+                "16:9 Full HD display for crisp detailed images",
+                "SmartContrast for rich black details",
+                "The gaming advantage is yours",
+                "AMD FreeSync™ Premium; tear free, stutter free, fluid gaming",
+                "144Hz refresh rates for ultra-smooth, brilliant images",
+                "1ms (MPRT) fast response for crisp image and smooth gameplay",
+                "SmartImage game mode optimized for gamers",
+                "Ultra Wide-Color wider range of colors for a vivid picture",
+                "Features designed for you",
+                "Less eye fatigue with Flicker-free technology",
+                "LowBlue Mode for easy on-the-eyes productivity"
+            ],
+            "productImages": "monitor-philips"
+        },
+        {
+            "productId": "112",
+            "productName": "Samsung Monitor",
+            "productFullName": "Samsung 24inch LF24T350FHEXXM 75Hz 5MS FreeSync IPS Monitor",
+            "productCategory": "Monitor",
+            "productBrand": "Samsung",
+            "productPriceOld": "RM545.59",
+            "productPriceNew": "RM439.89",
+            "productDesc": [
+                "24inch LED Monitor with IPS panel and borderless design The IPS panel preserves color vividness and clarity across every inch of the screen",
+                "The 3-sided borderless design allows seamless view in a multi-monitor setup",
+                "Advanced eye comfort technology provides comfortable viewing experience",
+                "Minimalist design, maximum concentration. The 3-sided borderless display brings a clean and modern aesthetic to any working environment. ",
+                "In a multi-monitor setup, the displays line up seamlessly for a virtually gapless view without distractions."
+            ],
+            "productImages": "monitor-samsung"
+        },
+        {
+            "productId": "113",
+            "productName": "Corsair Mouse",
+            "productFullName": "CORSAIR M65 RGB ELITE Tunable FPS Gaming Mouse - White (CH-9309111-AP)",
+            "productCategory": "Mouse",
+            "productBrand": "Corsair",
+            "productPriceOld": "RM279.00",
+            "productPriceNew": "RM200.99",
+            "productDesc": [
+                "Mouse Warranty Two years",
+                "Prog Buttons 9",
+                "DPI 18,000 DPI",
+                "Sensor PMW3391",
+                "Sensor Type Optical",
+                "Mouse Backlighting 2 Zone RGB",
+                "On Board Memory Yes",
+                "On-board Memory Profiles 1",
+                "Mouse button Type Omron",
+                "Connectivity Wired",
+                "Mouse Button Durability 50M L/R Click",
+                "Grip Type Claw",
+                "Weight Tuning Yes",
+                "Weight 97g (w/out cable and accessories)",
+                "CUE Software Supported in iCUE",
+                "Cable 1.8m Braided Fiber",
+                "Game Type FPS",
+                "Report Rate Selectable 1000Hz/500Hz/250Hz/125Hz",
+                "Compatibility: PC with USB  2.0 port, Windows 10, Windows 8, or Windows 7, An internet connection is required to download the iCUE software"
+            ],
+            "productImages": "mouse-corsair"
+        },
+        {
+            "productId": "114",
+            "productName": "Lenovo Mouse",
+            "productFullName": "Lenovo Legion M200 RGB Gaming Mouse - GX30P93886",
+            "productCategory": "Mouse",
+            "productBrand": "Lenovo",
+            "productPriceOld": "RM109.00",
+            "productPriceNew": "RM69.00",
+            "productDesc": [
+                "Connection Type Wired via USB",
+                "Cable Length/Type 1.80 m (Braided cable)",
+                "Weight 150 g (0.33 lbs)",
+                "Special Design Features Ambidextrous comfortable design",
+                "Backlight 7-color RGB backlight (Red, Yellow, Green, Blue, Purple, Pink, Sky Blue)",
+                "Mice Button 5",
+                "Button Life Left/right button - up to 5,000,000 clicks, Encoder - up to 800,000 clicks, Side buttons - up to 1,000,000 clicks, Scroll wheel - up to 3,000,000 clicks, DPI switch - up to 3,000,000 clicks",
+                "DPI Adjustable: 2400 DPI (default), 1600 DPI, 1300 DPI, 1000 DPI",
+                "Mouse Sensor Optical sensor",
+                "Hardware Requirements Supported PC with USB port",
+                "OS Requirements Windows 7, Windows 8, Windows 8.1, Windows 10",
+                "Height 40 mm (1.59 in)",
+                "Length 71 mm (2.81 in)",
+                "Depth 123 mm (4.84 in)"
+            ],
+            "productImages": "mouse-lenovo"
+        },
+        {
+            "productId": "115",
+            "productName": "Logitech Mouse",
+            "productFullName": "Logitech M557 Bluetooth Wireless Mouse for PC, Mac , Window , Chrome OS- Dark Grey (910-003960)",
+            "productCategory": "Mouse",
+            "productBrand": "Logitech",
+            "productPriceOld": "RM99.00",
+            "productPriceNew": "RM69.00",
+            "productDesc": [
+                "Work with almost any device",
+                "Go for one full year",
+                "All the control you need",
+                "Bluetooth Wireless",
+                "Slim, ambidextrous design",
+                "12 months battery life",
+                "Windows and start screen button",
+                "Fully customizable",
+                "Side to side scrolling",
+                "High definition optical sensor"
+            ],
+            "productImages": "mouse-logitech"
+        },
+        {
+            "productId": "116",
+            "productName": "Microsoft Mouse",
+            "productFullName": "Microsoft Bluetooth Ergonomic Mouse - Black (222-00012)",
+            "productCategory": "Mouse",
+            "productBrand": "Microsoft",
+            "productPriceOld": "RM179.99",
+            "productPriceNew": "RM129.00",
+            "productDesc": [
+                "All-day comfort",
+                "Long battery life",
+                "Connect up to three devices",
+                "Natural hand position",
+                "Smooth and precise",
+                "Light, durable design",
+                "Connection interface Bluetooth® Low Energy compatible 4.0 / 4.1 / 4.2 / 5.0",
+                "Wireless frequency 2.4 GHz frequency range",
+                "Wireless range 30 feet (10 metres) in open area; up to 15 feet (5 metres) in typical office environment"
+            ],
+            "productImages": "mouse-microsoft"
+        },
+        {
+            "productId": "117",
+            "productName": "Kingston 8GB RAM",
+            "productFullName": "Kingston 8GB DDR4 3200Mhz Sodimm Value Ram - KVR32S22S8/8",
+            "productCategory": "RAM",
+            "productBrand": "Kingston",
+            "productPriceOld": "RM179.99",
+            "productPriceNew": "RM116.99",
+            "productDesc": [
+                "64-bit (8GB) DDR4-3200 CL22 SDRAM (Synchronous DRAM)",
+                "1Rx8, non-ECC, memory module, based on eight 1G x 8-bit FBGA",
+                "components. The SPD is programmed to JEDEC standard latency",
+                "DDR4-3200 timing of 22-22-22 at 1.2V. This 260-pin DIMM uses gold contact fingers. ",
+                "Power Supply: VDD = 1.2V Typical, VDDQ = 1.2V Typical, VPP = 2.5V Typical, VDDSPD = 2.2V to 3.6V",
+                "Nominal and dynamic on-die termination (ODT) for data, strobe, and mask signals"
+            ],
+            "productImages": "ram-kingston-8gb"
+        },
+        {
+            "productId": "118",
+            "productName": "Kingston 16GB RAM",
+            "productFullName": "Kingston 16GB DDR4 3200Mhz Sodimm Value Ram - KVR32S22D8/16 / KVR32S22S8/16",
+            "productCategory": "RAM",
+            "productBrand": "Kingston",
+            "productPriceOld": "RM279.00",
+            "productPriceNew": "RM229.10",
+            "productDesc": [
+                "64-bit (16GB) DDR4-3200 CL22 SDRAM (Synchronous DRAM)",
+                "1Rx8, non-ECC, memory module, based on eight 1G x 8-bit FBGA",
+                "components. The SPD is programmed to JEDEC standard latency",
+                "DDR4-3200 timing of 22-22-22 at 1.2V. This 260-pin DIMM uses gold contact fingers. ",
+                "Power Supply: VDD = 1.2V Typical, VDDQ = 1.2V Typical, VPP = 2.5V Typical, VDDSPD = 2.2V to 3.6V",
+                "Nominal and dynamic on-die termination (ODT) for data, strobe, and mask signals"
+            ],
+            "productImages": "ram-kingston-16gb"
+        },
+        {
+            "productId": "119",
+            "productName": "Kingston Fury 8GB RAM",
+            "productFullName": "Kingston FURY 8GB 2666MHz DDR4 CL16 288-Pin DIMM (KF426C16BB/8)",
+            "productCategory": "RAM",
+            "productBrand": "Kingston",
+            "productPriceOld": "RM209.99",
+            "productPriceNew": "RM125.65",
+            "productDesc": [
+                "FURY KF426C16BB/8 is a 1G x 64-bit (8GB) DDR4-2666 CL16 SDRAM (Synchronous DRAM) 1Rx8, memory module, based on eight 1G x 8-bit FBGA components per module. ",
+                "Each module kit supports Intel® Extreme Memory Profiles (Intel® XMP) 2.0. Each module has been tested to run at DDR4-2666 at a low latency timing of 16-18-18 at 1.2V. ",
+                "Additional timing parameters are shown in the Plug-N-Play (PnP) Timing Parameters section below. Each 288-pin DIMM uses gold contact fingers. ",
+                "Default (Plug N Play): DDR4-2666 CL16-18-18 @ 1.2V",
+                "XMP Profile #1: DDR4-2666 CL16-18-18 @ 1.2V"
+            ],
+            "productImages": "ram-fury-8gb"
+        },
+        {
+            "productId": "120",
+            "productName": "Kingston Fury 16GB RAM",
+            "productFullName": "Kingston FURY 16GB 3200MHz DDR4 CL16 288-Pin DIMM (KF432C16BB1/16)",
+            "productCategory": "RAM",
+            "productBrand": "Kingston",
+            "productPriceOld": "RM309.59",
+            "productPriceNew": "RM279.99",
+            "productDesc": [
+                "FURY KF426C16BB/8 is a 1G x 64-bit (8GB) DDR4-2666 CL16 SDRAM (Synchronous DRAM) 1Rx8, memory module, based on eight 1G x 8-bit FBGA components per module. ",
+                "Each module kit supports Intel® Extreme Memory Profiles (Intel® XMP) 2.0. Each module has been tested to run at DDR4-2666 at a low latency timing of 16-18-18 at 1.2V. ",
+                "Additional timing parameters are shown in the Plug-N-Play (PnP) Timing Parameters section below. Each 288-pin DIMM uses gold contact fingers. ",
+                "Default (Plug N Play): DDR4-2666 CL16-18-18 @ 1.2V",
+                "XMP Profile #1: DDR4-2666 CL16-18-18 @ 1.2V"
+            ],
+            "productImages": "ram-fury-16gb"
+        },
+        {
+            "productId": "121",
+            "productName": "Crucial SSD",
+            "productFullName": "Crucial 1000GB P2 NVMe PCIe 2280 M.2 SSD (CT1000P2SSD8)",
+            "productCategory": "SSD",
+            "productBrand": "Crucial",
+            "productPriceOld": "RM479.79",
+            "productPriceNew": "RM339.99",
+            "productDesc": [
+                "Life Cycle - New",
+                "Brand - Crucial",
+                "Warranty - Manufacturer's 5 Year Limited ",
+                "Form factor - m2_2280 ",
+                "Sequential Read - 2,400 MB/s ",
+                "Capacity - 1TB ",
+                "Sequential Write - 1800 MB/s ",
+                "Interface - PCIe G3 1x4 / NVMe ",
+                "Specs - 1TB M.2 SSD • PCIe NVMe Gen 3 • 2,400 MB/s Read, 1800 MB/s Write "
+            ],
+            "productImages": "ssd-crucial"
+        },
+        {
+            "productId": "122",
+            "productName": "Kingston SSD",
+            "productFullName": "Kingston 240GB A400 SSD (SA400S37/240G) Internal SSD",
+            "productCategory": "SSD",
+            "productBrand": "Kingston",
+            "productPriceOld": "RM159.00",
+            "productPriceNew": "RM88.00",
+            "productDesc": [
+                "Kingston's A400 solid-state drive dramatically improves the responsiveness of your existing system with incredible boot, loading and transfer times compared to mechanical hard drives.",
+                "Powered by a latest-gen controller for read and write speeds of up to 500MB/s and 450MB/s1, this SSD is 10x faster than a traditional hard drive* for higher performance, ultra-responsive multi-tasking and an overall faster system.",
+                "Also more reliable and durable than a hard drive, A400 is available in multiple capacities from 120GB-480GB2.",
+                "Fast start-up, loading and file transfers",
+                "More reliable and durable than a hard drive",
+                "Multiple capacities with space for applications or a hard drive replacement"
+            ],
+            "productImages": "ssd-kingston"
+        },
+        {
+            "productId": "123",
+            "productName": "Samsung SSD",
+            "productFullName": "Samsung SSD 970 PRO NVMe M.2 512GB - MZ-V7P512BW",
+            "productCategory": "SSD",
+            "productBrand": "Samsung",
+            "productPriceOld": "RM879.09",
+            "productPriceNew": "RM699.29",
+            "productDesc": [
+                "Application Client PCs",
+                "Capacity512GB (1GB=1 Billion byte by IDEMA) * Actual usable capacity may be less (due to formatting, partitioning, operating system, applications or otherwise)",
+                "Form FactorM.2 (2280)",
+                "Interface PCIe Gen 3.0 x4, NVMe 1.3",
+                "Dimension (WxHxD)80.15 x 22.15 x 2.38 (mm)",
+                "Weight Max 8.0 g Weight",
+                "Storage Memory amsung V-NAND 2-bit MLC",
+                "Controller Samsung Phoenix Controller",
+                "Cache Memory Samsung 512MB Low Power DDR4 SDRAM"
+            ],
+            "productImages": "ssd-samsung"
+        },
+        {
+            "productId": "124",
+            "productName": "Verbatim SSD",
+            "productFullName": "Verbatim Vi550 S3 SATA III 2.5” Internal SSD - 256GB (49351)",
+            "productCategory": "SSD",
+            "productBrand": "Verbatim",
+            "productPriceOld": "RM179.89",
+            "productPriceNew": "RM110.09",
+            "productDesc": [
+                "Capacity: 256GB",
+                "Form Factor: 2.5” 7mm",
+                "Write Host Performance Data Transfer(ATTO): Up to 460 MB/s",
+                "Flash: 3D NAND",
+                "Write IOPS Random(4K) QD=32(Max): 85,901",
+                "TBW Rating: 150TB",
+                "Active Write Power Consumption: 1330mW",
+                "Operating Temperature: 0°C to 70°C",
+                "Humidity: RH 90% under 40°C (operational)",
+                "Vibration: 20Hz~80Hz/1.52mm frequency/displacement. 80Hz~2000Hz/20G frequency/acceleration, X,Y,Z axis 60 minutes orientation",
+                "Warranty: 3 Year Limited Warranty"
+            ],
+            "productImages": "ssd-verbatim"
+        }
+    ]
+}
