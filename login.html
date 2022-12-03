@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/login.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>CGI Online Store | Login</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-logo">
+                    <img
+                        src="assets/logo.png"
+                        alt="cgi-logo"
+                        class="navbar-img"
+                    />
+                    <span class="navbar-title">CGI</span>
+                </a>
+                <a href="#" class="navbar-burger" onclick="openNav()"
+                    ><i class="bi bi-list"></i
+                ></a>
+            </div>
+            <div class="navbar-desc">
+                <span><a href="index.html#special_deal">Special Deal</a></span>
+                <span><a href="index.html#category">Category</a></span>
+                <span><a href="index.html#top_selling">Top Selling</a></span>
+                <span><a href="index.html#about_us">About Us</a></span>
+                <span><a href="index.html#contact_us">Contact Us</a></span>
+            </div>
+        </nav>
+        <div class="navbar-side" id="sidenav">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+                >&times;</a
+            >
+            <a href="index.html#special_deal">Special Deal</a>
+            <a href="index.html#category">Category</a>
+            <a href="index.html#top_selling">Top Selling</a>
+            <a href="index.html#about_us">About Us</a>
+            <a href="index.html#contact_us">Contact Us</a>
+        </div>
+
+        <!-- cart container -->
+        <section class="cart-container">
+            <a class="cart" href="cart.html">
+                <i class="bi bi-cart"></i>&nbsp;
+                <div class="no-addedtocart">
+                    <span>0</span>
+                </div>
+            </a>
+            <button href="#" class="user">
+                <i class="bi bi-person-fill"></i>&nbsp;
+                <div class="user-menu">
+                    <div class="user-menu-container">
+                        <a href="login.html" class="user-menu-child">Login</a>
+                        <span class="or">or</span>
+                        <a href="register.html" class="user-menu-child"
+                            >Register</a
+                        >
+                    </div>
+                </div>
+            </button>
+        </section>
+
+        <!-- header -->
+        <div class="header-bg">
+            <section class="header">
+                <h3 class="header-title">Login</h3>
+                <div class="breadcrumb">
+                    <a class="breadcrumb-element" href="index.html">Home</a>
+                    &nbsp;
+                    <h5 class="chevron"><i class="bi bi-chevron-right"></i></h5>
+                    &nbsp;
+                    <a class="breadcrumb-element" href="#">Login</a>
+                </div>
+            </section>
+        </div>
+
+        <!-- login -->
+        <section class="login">
+            <form class="login-form">
+                <div class="login-group-input">
+                    <label for="email" class="login-label">Your Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="login-input"
+                        autocomplete="off"
+                        placeholder="name@example.com"
+                    />
+                </div>
+                <div class="login-group-input">
+                    <label for="password" class="login-label"
+                        >Your Password</label
+                    >
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        class="login-input"
+                        autocomplete="off"
+                        placeholder="&#9913;&#9913;&#9913;&#9913;&#9913;&#9913;&#9913;&#9913;"
+                    />
+                </div>
+                <button type="submit" class="login-btn">LOGIN</button>
+                <a href="register.html" class="login-link"
+                    >Don't have an account?</a
+                >
+            </form>
+            <img
+                src="assets/login-desktop-img.svg"
+                alt="login-img"
+                class="login-img"
+            />
+        </section>
+
+        <!-- footer -->
+        <section class="footer-bg">
+            <footer>
+                <div class="store-profile">
+                    <a class="store-profile-logo" href="index.html">
+                        <img
+                            src="assets/logo.png"
+                            alt="store-profile-img"
+                            class="store-profile-img"
+                        />
+                        <span class="store-profile-title">CGI</span>
+                    </a>
+                    <p class="store-profile-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Laudantium eaque repellat vero?
+                    </p>
+                    <div class="store-profile-socmed">
+                        <a href="https://facebook.com" target="_blank"
+                            ><i class="bi bi-facebook"></i
+                        ></a>
+                        <a href="https://twitter.com" target="_blank"
+                            ><i class="bi bi-twitter"></i
+                        ></a>
+                        <a href="https://instagram.com" target="_blank"
+                            ><i class="bi bi-instagram"></i
+                        ></a>
+                        <a href="https://youtube.com" target="_blank"
+                            ><i class="bi bi-youtube"></i
+                        ></a>
+                    </div>
+                </div>
+                <div class="useful-links">
+                    <div>
+                        <h6 class="footer-title">Useful Links</h6>
+                        <a href="#special_deal">Special Deal</a>
+                        <a href="#top_selling">Top Selling</a>
+                        <a href="#trusted_partners"
+                            >Trusted partners&nbsp;&nbsp;&nbsp;</a
+                        >
+                        <a href="#about_us">About Us</a>
+                        <a href="#contact_us">Contact Us</a>
+                    </div>
+                    <div>
+                        <a href="category.html?category=keyboard"
+                            >Keyboard category</a
+                        ><a href="category.html?category=laptop"
+                            >Laptop category</a
+                        ><a href="category.html?category=monitor"
+                            >Monitor category</a
+                        ><a href="category.html?category=mouse"
+                            >Mouse category</a
+                        ><a href="category.html?category=ram">RAM category</a>
+                        <a href="category.html?category=ssd">SSD category</a>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h6 class="footer-title">Our newsletter</h6>
+                    <label for="email-newsletter"
+                        >Subscribe to our newsletter to get more updates</label
+                    >
+                    <div class="newsletter-form">
+                        <input
+                            type="text"
+                            name="email_newsletter"
+                            id="email-newsletter"
+                            placeholder="Your email"
+                        />
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <script src="scripts/login.js"></script>
+    </body>
+</html>

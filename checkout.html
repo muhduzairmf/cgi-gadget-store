@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/checkout.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>CGI Online Store | Checkout</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-logo">
+                    <img
+                        src="assets/logo.png"
+                        alt="cgi-logo"
+                        class="navbar-img"
+                    />
+                    <span class="navbar-title">CGI</span>
+                </a>
+                <a href="#" class="navbar-burger" onclick="openNav()"
+                    ><i class="bi bi-list"></i
+                ></a>
+            </div>
+            <div class="navbar-desc">
+                <span><a href="index.html#special_deal">Special Deal</a></span>
+                <span><a href="index.html#category">Category</a></span>
+                <span><a href="index.html#top_selling">Top Selling</a></span>
+                <span><a href="index.html#about_us">About Us</a></span>
+                <span><a href="index.html#contact_us">Contact Us</a></span>
+            </div>
+        </nav>
+        <div class="navbar-side" id="sidenav">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+                >&times;</a
+            >
+            <a href="index.html#special_deal">Special Deal</a>
+            <a href="index.html#category">Category</a>
+            <a href="index.html#top_selling">Top Selling</a>
+            <a href="index.html#about_us">About Us</a>
+            <a href="index.html#contact_us">Contact Us</a>
+        </div>
+
+        <!-- cart container -->
+        <section class="cart-container">
+            <a class="cart" href="cart.html">
+                <i class="bi bi-cart"></i>&nbsp;
+                <div class="no-addedtocart">
+                    <span>0</span>
+                </div>
+            </a>
+            <button href="#" class="user">
+                <i class="bi bi-person-fill"></i>&nbsp;
+                <div class="user-menu">
+                    <div class="user-menu-container">
+                        <a href="login.html" class="user-menu-child">Login</a>
+                        <span class="or">or</span>
+                        <a href="register.html" class="user-menu-child"
+                            >Register</a
+                        >
+                    </div>
+                </div>
+            </button>
+        </section>
+
+        <!-- header -->
+        <div class="header-bg">
+            <section class="header">
+                <h3 class="header-title">Checkout</h3>
+                <div class="breadcrumb">
+                    <a class="breadcrumb-element" href="index.html">Home</a>
+                    &nbsp;
+                    <h5 class="chevron"><i class="bi bi-chevron-right"></i></h5>
+                    &nbsp;
+                    <a class="breadcrumb-element" href="#">Checkout</a>
+                </div>
+            </section>
+        </div>
+
+        <!-- summary -->
+        <section class="summary-container">
+            <section class="summary">
+                <div class="summary-header">
+                    <div class="summary-titles">
+                        <h4 class="summary-title">PRODUCT</h4>
+                        <h4 class="summary-title">QUANTITY</h4>
+                        <h4 class="summary-title">PRICE</h4>
+                    </div>
+                    <hr />
+                </div>
+                <div class="summary-product">
+                    <div class="summary-product-detail">
+                        <div class="summary-product-desc">
+                            <img
+                                src="assets/laptop-honor-1.png"
+                                alt="summary-product-desc-img"
+                                class="summary-product-desc-img"
+                            />
+                            <p class="summary-product-desc-title">
+                                Honor Laptop
+                            </p>
+                        </div>
+                        <div class="summary-product-quantity">
+                            <p class="summary-product-quantity-title">1</p>
+                        </div>
+                        <div class="summary-product-price">
+                            <p class="summary-product-price-title">
+                                RM 5000.00
+                            </p>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="summary-product">
+                    <div class="summary-product-detail">
+                        <div class="summary-product-desc">
+                            <img
+                                src="assets/laptop-honor-1.png"
+                                alt="summary-product-desc-img"
+                                class="summary-product-desc-img"
+                            />
+                            <p class="summary-product-desc-title">
+                                Honor Laptop
+                            </p>
+                        </div>
+                        <div class="summary-product-quantity">
+                            <p class="summary-product-quantity-title">1</p>
+                        </div>
+                        <div class="summary-product-price">
+                            <p class="summary-product-price-title">
+                                RM 5000.00
+                            </p>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="summary-pay">
+                    <div class="summary-pay-overall">
+                        <div></div>
+                        <p class="summary-pay-overall-title">OVERALL TOTAL </p>
+                        <p>:&nbsp;&nbsp;&nbsp;RM</p>
+                        <p class="summary-pay-overall-quantity">10 000.00</p>
+                    </div>
+                    <div class="summary-pay-discount">
+                        <div></div>
+                        <p class="summary-pay-discount-title">DISCOUNT (5%)</p>
+                        <p>:&nbsp;&nbsp;&nbsp;RM</p>
+                        <p class="summary-pay-discount-quantity">100.00</p>
+                    </div>
+                    <div class="summary-pay-amount">
+                        <div></div>
+                        <p class="summary-pay-amount-title">AMOUNT TO PAY</p>
+                        <p>:&nbsp;&nbsp;&nbsp;RM</p>
+                        <p class="summary-pay-amount-quantity">9 900.00</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- billing details -->
+        <section class="billing">
+            <div class="billing-title">
+                <h3>Billing Details</h3>
+                <small>(* is required field)</small>
+            </div>
+            <form class="billing-form">
+                <div class="billing-group-input">
+                    <label for="receivername" class="billing-label"
+                        >Receiver Name *</label
+                    >
+                    <input
+                        type="text"
+                        name="receivername"
+                        id="receivername"
+                        class="billing-input"
+                        autocomplete="off"
+                        value="John Smith"
+                    />
+                </div>
+                <div class="billing-group-input">
+                    <label for="phonenum" class="billing-label"
+                        >Phone Number *</label
+                    >
+                    <input
+                        type="tel"
+                        name="phonenum"
+                        id="phonenum"
+                        class="billing-input"
+                        autocomplete="off"
+                        value="+60198767890"
+                    />
+                </div>
+                <div class="billing-group-input">
+                    <label for="email" class="billing-label">Email *</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="billing-input"
+                        autocomplete="off"
+                        value="johnsmith@email.com"
+                    />
+                </div>
+                <div class="billing-group-input">
+                    <label for="addressline1" class="billing-label"
+                        >Address (Line 1) *</label
+                    >
+                    <input
+                        type="text"
+                        name="addressline1"
+                        id="addressline1"
+                        class="billing-input"
+                        autocomplete="off"
+                        placeholder="Line 1"
+                    />
+                </div>
+                <div class="billing-group-input">
+                    <label for="addressline2" class="billing-label"
+                        >Address (Line 2)</label
+                    >
+                    <input
+                        type="text"
+                        name="addressline2"
+                        id="addressline2"
+                        class="billing-input"
+                        autocomplete="off"
+                        placeholder="Line 2"
+                    />
+                </div>
+                <div class="billing-group-input">
+                    <label for="postcode" class="billing-label"
+                        >Postcode *</label
+                    >
+                    <input
+                        type="text"
+                        name="postcode"
+                        id="postcode"
+                        class="billing-input"
+                        autocomplete="off"
+                        placeholder="40000"
+                    />
+                </div>
+                <div class="billing-group-input">
+                    <label for="towncity" class="billing-label"
+                        >Town/ City *</label
+                    >
+                    <input
+                        type="text"
+                        name="towncity"
+                        id="towncity"
+                        class="billing-input"
+                        autocomplete="off"
+                        placeholder="Klang"
+                    />
+                </div>
+                <div class="billing-group-input">
+                    <label for="state" class="billing-label">State *</label>
+                    <select name="state" id="state" class="billing-input">
+                        <option value="Perlis">Perlis</option>
+                        <option value="Kedah">Kedah</option>
+                        <option value="Pulau Pinang">Pulau Pinang</option>
+                        <option value="Perak">Perak</option>
+                        <option value="Selangor">Selangor</option>
+                        <option value="Kuala Lumpur">Kuala Lumpur</option>
+                        <option value="Putrajaya">Putrajaya</option>
+                        <option value="Negeri Sembilan">Negeri Sembilan</option>
+                        <option value="Melaka">Melaka</option>
+                        <option value="Johor">Johor</option>
+                        <option value="Pahang">Pahang</option>
+                        <option value="Terengganu">Terengganu</option>
+                        <option value="Kelantan">Kelantan</option>
+                        <option value="Sarawak">Sarawak</option>
+                        <option value="Sabah">Sabah</option>
+                        <option value="Labuan">Labuan</option>
+                    </select>
+                </div>
+                <div class="billing-group-input">
+                    <label for="ordernotes" class="billing-label"
+                        >Order notes</label
+                    >
+                    <input
+                        type="text"
+                        name="ordernotes"
+                        id="ordernotes"
+                        class="billing-input"
+                        autocomplete="off"
+                        placeholder="Any notes..."
+                    />
+                </div>
+                <div class="billing-group-btn">
+                    <button type="button" class="btn-secondary" onclick="window.location.href = 'cart.html';">CANCEL</button>
+                    <button type="submit" class="btn-primary">
+                        PROCEED TO PAYMENT
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- footer -->
+        <section class="footer-bg">
+            <footer>
+                <div class="store-profile">
+                    <a class="store-profile-logo" href="index.html">
+                        <img
+                            src="assets/logo.png"
+                            alt="store-profile-img"
+                            class="store-profile-img"
+                        />
+                        <span class="store-profile-title">CGI</span>
+                    </a>
+                    <p class="store-profile-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Laudantium eaque repellat vero?
+                    </p>
+                    <div class="store-profile-socmed">
+                        <a href="https://facebook.com" target="_blank"
+                            ><i class="bi bi-facebook"></i
+                        ></a>
+                        <a href="https://twitter.com" target="_blank"
+                            ><i class="bi bi-twitter"></i
+                        ></a>
+                        <a href="https://instagram.com" target="_blank"
+                            ><i class="bi bi-instagram"></i
+                        ></a>
+                        <a href="https://youtube.com" target="_blank"
+                            ><i class="bi bi-youtube"></i
+                        ></a>
+                    </div>
+                </div>
+                <div class="useful-links">
+                    <div>
+                        <h6 class="footer-title">Useful Links</h6>
+                        <a href="#special_deal">Special Deal</a>
+                        <a href="#top_selling">Top Selling</a>
+                        <a href="#trusted_partners"
+                            >Trusted partners&nbsp;&nbsp;&nbsp;</a
+                        >
+                        <a href="#about_us">About Us</a>
+                        <a href="#contact_us">Contact Us</a>
+                    </div>
+                    <div>
+                        <a href="category.html?category=keyboard"
+                            >Keyboard category</a
+                        ><a href="category.html?category=laptop"
+                            >Laptop category</a
+                        ><a href="category.html?category=monitor"
+                            >Monitor category</a
+                        ><a href="category.html?category=mouse"
+                            >Mouse category</a
+                        ><a href="category.html?category=ram">RAM category</a>
+                        <a href="category.html?category=ssd">SSD category</a>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h6 class="footer-title">Our newsletter</h6>
+                    <label for="email-newsletter"
+                        >Subscribe to our newsletter to get more updates</label
+                    >
+                    <div class="newsletter-form">
+                        <input
+                            type="text"
+                            name="email_newsletter"
+                            id="email-newsletter"
+                            placeholder="Your email"
+                        />
+                        <button class="newsletter-btn">Subscribe</button>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <script src="scripts/checkout.js"></script>
+    </body>
+</html>
