@@ -525,6 +525,10 @@ footer {
         font-size: 18px;
     }
 
+    .cart-container {
+        padding: 8px 35px;
+    }
+
     .searchbox-form {
         padding: 0;
     }
