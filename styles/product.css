@@ -657,6 +657,7 @@ footer {
     /* navbar */
     .navbar {
         display: block;
+        padding: 20px 35px;
     }
 
     .navbar-logo {
