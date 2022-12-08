@@ -247,6 +247,15 @@ a.breadcrumb-element:hover {
     justify-content: space-between;
 }
 
+.login-msg {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+}
+
 .login-form {
     flex-grow: 2;
 }

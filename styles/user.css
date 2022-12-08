@@ -246,6 +246,16 @@ a.breadcrumb-element:hover {
     padding: 0 10px;
 }
 
+.detail-msg {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+    max-width: 500px;
+}
+
 .detail-container-img {
     margin-bottom: 20px;
 }
