@@ -97,28 +97,32 @@ function increase(productId) {
     quantityToBuy += 1;
     document.querySelector("#quantity-" + productId).value = quantityToBuy;
 
-    let theproduct = cartlistProduct.filter(
+    let theproduct = JSON.parse(window.localStorage.getItem("cartlist")).filter(
         (product) => product.productId === productId
     )[0];
 
     theproduct.quantityToBuy = quantityToBuy;
 
-    let newcartlist = cartlistProduct.filter((product) => {
-        product.productId !== productId;
-    });
+    let newcartlist = JSON.parse(
+        window.localStorage.getItem("cartlist")
+    ).filter((product) => product.productId !== productId);
 
     newcartlist = [...newcartlist, theproduct];
 
     window.localStorage.setItem("cartlist", JSON.stringify(newcartlist));
 
     let newoverallprice = 0;
+    let allquantity = 0;
 
     newcartlist.forEach((product) => {
         newoverallprice += product.quantityToBuy * product.productPrice;
+        allquantity += product.quantityToBuy;
     });
 
     document.querySelector(".cartlist-overall-price").textContent =
         "RM " + newoverallprice;
+
+    window.localStorage.setItem("cartnumber", allquantity);
 }
 
 function decrease(productId) {
@@ -134,28 +138,33 @@ function decrease(productId) {
     quantityToBuy -= 1;
     document.querySelector("#quantity-" + productId).value = quantityToBuy;
 
-    let theproduct = cartlistProduct.filter(
+    let theproduct = JSON.parse(window.localStorage.getItem("cartlist")).filter(
         (product) => product.productId === productId
     )[0];
 
     theproduct.quantityToBuy = quantityToBuy;
 
-    let newcartlist = cartlistProduct.filter((product) => {
-        product.productId !== productId;
-    });
+    let newcartlist = JSON.parse(
+        window.localStorage.getItem("cartlist")
+    ).filter((product) => product.productId !== productId);
 
+    console.log(JSON.parse(window.localStorage.getItem("cartlist")));
     newcartlist = [...newcartlist, theproduct];
 
     window.localStorage.setItem("cartlist", JSON.stringify(newcartlist));
 
     let newoverallprice = 0;
+    let allquantity = 0;
 
     newcartlist.forEach((product) => {
         newoverallprice += product.quantityToBuy * product.productPrice;
+        allquantity += product.quantityToBuy;
     });
 
     document.querySelector(".cartlist-overall-price").textContent =
         "RM " + newoverallprice;
+
+    window.localStorage.setItem("cartnumber", allquantity);
 }
 
 function deleteProduct(productId) {
