@@ -131,3 +131,15 @@ document.querySelector(".register-form").addEventListener("submit", (e) => {
     // redirect to user detail page
     window.location.href = "user.html?section=detail";
 });
+
+function refreshcartnumber() {
+    let cartnumber = window.localStorage.getItem("cartnumber")
+        ? parseInt(window.localStorage.getItem("cartnumber"))
+        : 0;
+
+    window.localStorage.setItem("cartnumber", cartnumber);
+
+    document.querySelector(".no-addedtocart span").textContent = cartnumber;
+}
+
+refreshcartnumber();

@@ -58,8 +58,8 @@ getData().then((data) => {
         <h6 class="product-detail-fullname">${product[0].productFullName}</h6>
         <a class="product-detail-category-and-brand">${product[0].productCategory}&nbsp;&nbsp;|&nbsp;&nbsp;${product[0].productBrand}</a>
         <div class="product-detail-price">
-            <p class="product-detail-newprice">${product[0].productPriceNew}</p>&nbsp;&nbsp;
-            <p class="product-detail-oldprice"><del>${product[0].productPriceOld}</del></p>
+            <p class="product-detail-newprice">RM${product[0].productPriceNew}</p>&nbsp;&nbsp;
+            <p class="product-detail-oldprice"><del>RM${product[0].productPriceOld}</del></p>
         </div>
         <div class="product-rating">
             <img src="../assets/star.png" alt="star" class="star" />
@@ -140,6 +140,80 @@ getData().then((data) => {
     containerProductDetail.innerHTML = templateProductDetail;
     containerProductDescList.innerHTML = templateProductDescList;
     containerRelatedProduct.innerHTML = templateRelatedProduct;
+
+    document
+        .querySelector(".product-detail-addtocart")
+        .addEventListener("click", () => {
+            if (quantityToBuy === 0) {
+                alert("Please how many product you want");
+                return;
+            }
+
+            getData().then((data) => {
+                const product = data.products.filter(function (product) {
+                    if (product.productId === productId) {
+                        return true;
+                    }
+                })[0];
+
+                let cartlist = window.localStorage.getItem("cartlist")
+                    ? JSON.parse(window.localStorage.getItem("cartlist"))
+                    : [];
+
+                let productexisted = cartlist.filter(
+                    (product) => product.productId === productId
+                )[0];
+
+                if (productexisted) {
+
+                    productexisted.quantityToBuy += quantityToBuy;
+
+                    let newcartlist = cartlist.filter(
+                        (product) => product.productId !== productId
+                    );
+
+                    newcartlist = [...newcartlist, productexisted];
+
+                    cartlist = newcartlist;
+
+                } else {
+
+                    const producttoadd = {
+                        productId: product.productId,
+                        productName: product.productName,
+                        productFullName: product.productFullName,
+                        productCategory: product.productCategory,
+                        productBrand: product.productBrand,
+                        productPrice: product.productPriceNew,
+                        productImages: product.productImages,
+                        quantityToBuy,
+                    };
+
+                    // merge to the cartlist
+                    cartlist = [...cartlist, producttoadd];
+                    
+                }
+
+                // store in localstorage
+                window.localStorage.setItem(
+                    "cartlist",
+                    JSON.stringify(cartlist)
+                );
+
+                // update cart number in header
+                let cartnumber = window.localStorage.getItem("cartnumber")
+                    ? parseInt(window.localStorage.getItem("cartnumber"))
+                    : 0;
+
+                cartnumber += quantityToBuy;
+                window.localStorage.setItem("cartnumber", cartnumber);
+
+                document.querySelector(".no-addedtocart span").textContent =
+                    cartnumber;
+
+                alert("Successfully added");
+            });
+        });
 });
 
 function changeImageMain(number) {
@@ -167,3 +241,15 @@ function decrease() {
     quantityToBuy -= 1;
     document.querySelector("#quantity").value = quantityToBuy;
 }
+
+function refreshcartnumber() {
+    let cartnumber = window.localStorage.getItem("cartnumber")
+        ? parseInt(window.localStorage.getItem("cartnumber"))
+        : 0;
+
+    window.localStorage.setItem("cartnumber", cartnumber);
+
+    document.querySelector(".no-addedtocart span").textContent = cartnumber;
+}
+
+refreshcartnumber();

@@ -90,81 +90,18 @@
                     <div class="summary-titles">
                         <h4 class="summary-title">PRODUCT</h4>
                         <h4 class="summary-title">QUANTITY</h4>
-                        <h4 class="summary-title">PRICE</h4>
+                        <h4 class="summary-title">SUBTOTAL</h4>
                     </div>
                     <hr />
-                </div>
-                <div class="summary-product">
-                    <div class="summary-product-detail">
-                        <div class="summary-product-desc">
-                            <img
-                                src="assets/laptop-honor-1.png"
-                                alt="summary-product-desc-img"
-                                class="summary-product-desc-img"
-                            />
-                            <p class="summary-product-desc-title">
-                                Honor Laptop
-                            </p>
-                        </div>
-                        <div class="summary-product-quantity">
-                            <p class="summary-product-quantity-title">1</p>
-                        </div>
-                        <div class="summary-product-price">
-                            <p class="summary-product-price-title">
-                                RM 5000.00
-                            </p>
-                        </div>
-                    </div>
-                    <hr />
-                </div>
-                <div class="summary-product">
-                    <div class="summary-product-detail">
-                        <div class="summary-product-desc">
-                            <img
-                                src="assets/laptop-honor-1.png"
-                                alt="summary-product-desc-img"
-                                class="summary-product-desc-img"
-                            />
-                            <p class="summary-product-desc-title">
-                                Honor Laptop
-                            </p>
-                        </div>
-                        <div class="summary-product-quantity">
-                            <p class="summary-product-quantity-title">1</p>
-                        </div>
-                        <div class="summary-product-price">
-                            <p class="summary-product-price-title">
-                                RM 5000.00
-                            </p>
-                        </div>
-                    </div>
-                    <hr />
-                </div>
-                <div class="summary-pay">
-                    <div class="summary-pay-overall">
-                        <div></div>
-                        <p class="summary-pay-overall-title">OVERALL TOTAL </p>
-                        <p>:&nbsp;&nbsp;&nbsp;RM</p>
-                        <p class="summary-pay-overall-quantity">10 000.00</p>
-                    </div>
-                    <div class="summary-pay-discount">
-                        <div></div>
-                        <p class="summary-pay-discount-title">DISCOUNT (5%)</p>
-                        <p>:&nbsp;&nbsp;&nbsp;RM</p>
-                        <p class="summary-pay-discount-quantity">100.00</p>
-                    </div>
-                    <div class="summary-pay-amount">
-                        <div></div>
-                        <p class="summary-pay-amount-title">AMOUNT TO PAY</p>
-                        <p>:&nbsp;&nbsp;&nbsp;RM</p>
-                        <p class="summary-pay-amount-quantity">9 900.00</p>
-                    </div>
                 </div>
             </section>
         </section>
 
         <!-- billing details -->
         <section class="billing">
+            <div class="billing-msg" id="error_billing">
+                <p class="billing-msg-content"></p>
+            </div>
             <div class="billing-title">
                 <h3>Billing Details</h3>
                 <small>(* is required field)</small>
@@ -180,7 +117,6 @@
                         id="receivername"
                         class="billing-input"
                         autocomplete="off"
-                        value="John Smith"
                     />
                 </div>
                 <div class="billing-group-input">
@@ -193,7 +129,6 @@
                         id="phonenum"
                         class="billing-input"
                         autocomplete="off"
-                        value="+60198767890"
                     />
                 </div>
                 <div class="billing-group-input">
@@ -204,7 +139,6 @@
                         id="email"
                         class="billing-input"
                         autocomplete="off"
-                        value="johnsmith@email.com"
                     />
                 </div>
                 <div class="billing-group-input">
@@ -294,7 +228,13 @@
                     />
                 </div>
                 <div class="billing-group-btn">
-                    <button type="button" class="btn-secondary" onclick="window.location.href = 'cart.html';">CANCEL</button>
+                    <button
+                        type="button"
+                        class="btn-secondary"
+                        onclick="window.location.href = 'cart.html';"
+                    >
+                        CANCEL
+                    </button>
                     <button type="submit" class="btn-primary">
                         PROCEED TO PAYMENT
                     </button>

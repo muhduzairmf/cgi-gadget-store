@@ -108,3 +108,15 @@ getData().then((data) => {
 
 const deadline = new Date(Date.parse(new Date()) + 7 * 24 * 60 * 60 * 1000);
 initializeClock(deadline);
+
+function refreshcartnumber() {
+    let cartnumber = window.localStorage.getItem("cartnumber")
+        ? parseInt(window.localStorage.getItem("cartnumber"))
+        : 0;
+
+    window.localStorage.setItem("cartnumber", cartnumber);
+
+    document.querySelector(".no-addedtocart span").textContent = cartnumber;
+}
+
+refreshcartnumber();

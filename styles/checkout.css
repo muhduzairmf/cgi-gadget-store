@@ -313,14 +313,16 @@ hr {
 }
 
 .summary-pay-overall,
+.summary-pay-shipping,
 .summary-pay-discount,
 .summary-pay-amount {
     display: grid;
-    grid-template-columns: 7fr 3fr 1fr 2fr;
+    grid-template-columns: 8fr 3fr 0.5fr 2fr;
     margin-bottom: 10px;
 }
 
 .summary-pay-overall-quantity,
+.summary-pay-shipping-quantity,
 .summary-pay-discount-quantity,
 .summary-pay-amount-quantity {
     text-align: end;
@@ -330,6 +332,15 @@ hr {
     max-width: 806.25px;
     margin: 50px auto;
     padding: 0 10px;
+}
+
+.billing-msg {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
 }
 
 .billing-title h3,

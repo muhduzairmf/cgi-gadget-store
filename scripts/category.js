@@ -72,7 +72,7 @@ const renderProduct = (products) => {
                                 <img src="../assets/star.png" alt="star" class="star">
                                 <img src="../assets/star.png" alt="star" class="star">
                             </div>
-                        <h5 class="product-price">${
+                        <h5 class="product-price">RM${
                             product.productPriceNew
                         }</h5>
                         <a href="category.html?category=${product.productCategory.toLowerCase()}">${
@@ -152,3 +152,15 @@ document.querySelector("#" + category).style.backgroundColor =
     "var(--red-color)";
 document.querySelector("#" + category).style.color = "white";
 document.querySelector("#" + category).style.border = "1px solid transparent";
+
+function refreshcartnumber() {
+    let cartnumber = window.localStorage.getItem("cartnumber")
+        ? parseInt(window.localStorage.getItem("cartnumber"))
+        : 0;
+
+    window.localStorage.setItem("cartnumber", cartnumber);
+
+    document.querySelector(".no-addedtocart span").textContent = cartnumber;
+}
+
+refreshcartnumber();

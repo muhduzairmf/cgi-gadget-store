@@ -287,7 +287,6 @@ a.breadcrumb-element:hover {
 
 button.decrease-btn {
     position: relative;
-    left: 5px;
     border-top-left-radius: var(--border-radius);
     border-bottom-left-radius: var(--border-radius);
     padding: 5px 6px;
@@ -303,7 +302,6 @@ button.decrease-btn:hover {
 
 button.increase-btn {
     position: relative;
-    right: 6px;
     border-top-right-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
     padding: 5px 6px;
@@ -317,13 +315,20 @@ button.increase-btn:hover {
     background-color: transparent;
 }
 
+.cartlist-product-adjustquantity {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .cartlist-product-adjustquantity input {
-    padding: 5.75px 6px;
+    padding: 5px 6px;
     width: 40px;
-    border: 2px solid var(--grey-color);
+    border-bottom: 2px solid var(--grey-color);
+    border-top: 2px solid var(--grey-color);
+    border-left: 2px solid white;
+    border-right: 2px solid white;
     text-align: center;
     position: relative;
-    bottom: 0.75px;
     background-color: white;
 }
 
