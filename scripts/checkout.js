@@ -8,6 +8,23 @@ function closeNav() {
     document.getElementById("sidenav").style.width = "0";
 }
 
+const activeuser = window.localStorage.getItem("activeuser");
+if (activeuser) {
+    document.querySelector(".user-menu-container").innerHTML = `
+        <a href="user.html?section=detail" class="user-menu-child">User Detail</a>
+        <span class="or">or</span>
+        <a href="#logout" class="user-menu-child" onclick="logout('${activeuser}')">Logout</a>
+    `;
+} else {
+    console.log("nothing happen");
+}
+
+function logout() {
+    window.localStorage.removeItem("activeuser");
+
+    window.location.href = "login.html";
+}
+
 const containerSummary = document.querySelector(".summary");
 const summaryList = JSON.parse(window.localStorage.getItem("cartlist"));
 const currentUser = JSON.parse(window.localStorage.getItem("userlist")).filter(
@@ -64,7 +81,7 @@ if (cartnumber >= 5 && cartnumber <= 10) {
 
 // let shippingfee = overallprice >= 100.0 ? 0 : 10;
 let shippingfee = 0;
-if (overallprice > 100.00) {
+if (overallprice > 100.0) {
     shippingfee = 0;
 } else {
     shippingfee = 10;

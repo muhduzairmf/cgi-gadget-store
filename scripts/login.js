@@ -8,6 +8,23 @@ function closeNav() {
     document.getElementById("sidenav").style.width = "0";
 }
 
+const activeuser = window.localStorage.getItem("activeuser");
+if (activeuser) {
+    document.querySelector(".user-menu-container").innerHTML = `
+        <a href="user.html?section=detail" class="user-menu-child">User Detail</a>
+        <span class="or">or</span>
+        <a href="#logout" class="user-menu-child" onclick="logout('${activeuser}')">Logout</a>
+    `;
+} else {
+    console.log("nothing happen");
+}
+
+function logout() {
+    window.localStorage.removeItem("activeuser");
+
+    window.location.href = "login.html";
+}
+
 document.querySelector(".login-msg").style.display = "none";
 
 document.querySelector(".login-form").addEventListener("submit", (e) => {
@@ -40,7 +57,7 @@ document.querySelector(".login-form").addEventListener("submit", (e) => {
     const userlist = JSON.parse(window.localStorage.getItem("userlist"));
 
     // check all user's email in userlist, if same as email input
-    const theuser = userlist.filter((user) => user.email === email);
+    const theuser = userlist.filter((user) => user.email === email)[0];
 
     if (!theuser) {
         document.querySelector(".login-msg-content").textContent =
@@ -56,6 +73,7 @@ document.querySelector(".login-form").addEventListener("submit", (e) => {
             "Password does not match";
         document.querySelector(".login-msg").style.display = "block";
         window.location.href = "#error_login";
+        console.log(theuser.password);
         return;
     }
 

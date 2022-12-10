@@ -8,6 +8,23 @@ function closeNav() {
     document.getElementById("sidenav").style.width = "0";
 }
 
+const activeuser = window.localStorage.getItem("activeuser");
+if (activeuser) {
+    document.querySelector(".user-menu-container").innerHTML = `
+        <a href="user.html?section=detail" class="user-menu-child">User Detail</a>
+        <span class="or">or</span>
+        <a href="#logout" class="user-menu-child" onclick="logout('${activeuser}')">Logout</a>
+    `;
+} else {
+    console.log("nothing happen");
+}
+
+function logout() {
+    window.localStorage.removeItem("activeuser");
+
+    window.location.href = "login.html";
+}
+
 document.querySelector(".register-msg").style.display = "none";
 
 document.querySelector(".register-form").addEventListener("submit", (e) => {
@@ -117,7 +134,7 @@ document.querySelector(".register-form").addEventListener("submit", (e) => {
         gender,
         phonenum,
         email,
-        password
+        password,
     };
 
     userlist = [...userlist, newuser];
