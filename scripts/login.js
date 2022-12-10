@@ -36,7 +36,7 @@ document.querySelector(".login-form").addEventListener("submit", (e) => {
     // all input is required
     if (!email || !password) {
         document.querySelector(".login-msg-content").textContent =
-            "You must enter valid phone number";
+            "All field is required";
         document.querySelector(".login-msg").style.display = "block";
         window.location.href = "#error_login";
         return;
