@@ -27,9 +27,11 @@ function logout() {
 
 const containerSummary = document.querySelector(".summary");
 const summaryList = JSON.parse(window.localStorage.getItem("cartlist"));
-const currentUser = JSON.parse(window.localStorage.getItem("userlist")).filter(
-    (user) => user.id === window.localStorage.getItem("activeuser")
-)[0];
+const currentUser = window.localStorage.getItem("userlist")
+    ? JSON.parse(window.localStorage.getItem("userlist")).filter(
+          (user) => user.id === window.localStorage.getItem("activeuser")
+      )[0]
+    : null;
 
 let overallprice = 0;
 
